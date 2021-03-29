@@ -1,5 +1,5 @@
 {
-    "name": "guzzlehttp/guzzle",
+    "name": "krystal/whmcs-guzzle",
     "type": "library",
     "description": "Guzzle is a PHP HTTP client library",
     "keywords": [
@@ -44,22 +44,12 @@
         "phpunit/phpunit": "^8.5.5 || ^9.3.5",
         "psr/log": "^1.1"
     },
-    "suggest": {
-        "ext-curl": "Required for CURL handler support",
-        "ext-intl": "Required for Internationalized Domain Name (IDN) support",
-        "psr/log": "Required for using the Log middleware"
-    },
     "config": {
         "sort-packages": true
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "7.4-dev"
-        }
-    },
     "autoload": {
         "psr-4": {
-            "GuzzleHttp\\": "src/"
+            "KrystalGuzzle\\": "src/"
         },
         "files": [
             "src/functions_include.php"
@@ -67,7 +57,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "GuzzleHttp\\Tests\\": "tests/"
+            "KrystalGuzzle\\Tests\\": "tests/"
         }
     }
 }
