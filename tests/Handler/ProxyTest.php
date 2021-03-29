@@ -1,11 +1,11 @@
 <?php
 
-namespace GuzzleHttp\Test\Handler;
+namespace KrystalGuzzle\Test\Handler;
 
-use GuzzleHttp\Handler\MockHandler;
-use GuzzleHttp\Handler\Proxy;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\RequestOptions;
+use KrystalGuzzle\Handler\MockHandler;
+use KrystalGuzzle\Handler\Proxy;
+use KrystalGuzzle\Psr7\Request;
+use KrystalGuzzle\RequestOptions;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,11 +1,11 @@
 <?php
 
-namespace GuzzleHttp;
+namespace KrystalGuzzle;
 
-use GuzzleHttp\Cookie\CookieJarInterface;
-use GuzzleHttp\Exception\RequestException;
-use GuzzleHttp\Promise as P;
-use GuzzleHttp\Promise\PromiseInterface;
+use KrystalGuzzle\Cookie\CookieJarInterface;
+use KrystalGuzzle\Exception\RequestException;
+use KrystalGuzzle\Promise as P;
+use KrystalGuzzle\Promise\PromiseInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Log\LoggerInterface;

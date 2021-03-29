@@ -513,13 +513,13 @@ created by the client (e.g., ``request()`` and ``requestAsync()``).
     $client->request('GET', '/get', ['headers' => null]);
 
     // Will not overwrite the X-Foo header because it is in the message.
-    use GuzzleHttp\Psr7\Request;
+    use KrystalGuzzle\Psr7\Request;
     $request = new Request('GET', 'http://foo.com', ['X-Foo' => 'test']);
     $client->send($request);
 
     // Will overwrite the X-Foo header with the request option provided in the
     // send method.
-    use GuzzleHttp\Psr7\Request;
+    use KrystalGuzzle\Psr7\Request;
     $request = new Request('GET', 'http://foo.com', ['X-Foo' => 'test']);
     $client->send($request, ['headers' => ['X-Foo' => 'overwrite']]);
 
@@ -598,7 +598,7 @@ over the wire.
 
 .. code-block:: php
 
-    use GuzzleHttp\Middleware;
+    use KrystalGuzzle\Middleware;
 
     // Create a middleware that echoes parts of the request.
     $tapMiddleware = Middleware::tap(function ($request) {
@@ -646,7 +646,7 @@ the following key value pairs:
 
 .. code-block:: php
 
-    use GuzzleHttp\Psr7;
+    use KrystalGuzzle\Psr7;
 
     $client->request('POST', '/post', [
         'multipart' => [
@@ -730,7 +730,7 @@ The callable accepts a ``GuzzleHttp\TransferStats`` object.
 
 .. code-block:: php
 
-    use GuzzleHttp\TransferStats;
+    use KrystalGuzzle\TransferStats;
 
     $client = new GuzzleHttp\Client();
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace GuzzleHttp\Test;
+namespace KrystalGuzzle\Test;
 
-use GuzzleHttp;
-use GuzzleHttp\Utils;
+use KrystalGuzzle;
+use KrystalGuzzle\Utils;
 use PHPUnit\Framework\TestCase;
 
 class UtilsTest extends TestCase

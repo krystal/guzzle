@@ -1,9 +1,9 @@
 <?php
 
-namespace GuzzleHttp\Tests\CookieJar;
+namespace KrystalGuzzle\Tests\CookieJar;
 
-use GuzzleHttp\Cookie\FileCookieJar;
-use GuzzleHttp\Cookie\SetCookie;
+use KrystalGuzzle\Cookie\FileCookieJar;
+use KrystalGuzzle\Cookie\SetCookie;
 use PHPUnit\Framework\TestCase;
 
 /**

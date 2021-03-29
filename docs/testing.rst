@@ -23,12 +23,12 @@ a response or exception by shifting return values off of a queue.
 
 .. code-block:: php
 
-    use GuzzleHttp\Client;
-    use GuzzleHttp\Handler\MockHandler;
-    use GuzzleHttp\HandlerStack;
-    use GuzzleHttp\Psr7\Response;
-    use GuzzleHttp\Psr7\Request;
-    use GuzzleHttp\Exception\RequestException;
+    use KrystalGuzzle\Client;
+    use KrystalGuzzle\Handler\MockHandler;
+    use KrystalGuzzle\HandlerStack;
+    use KrystalGuzzle\Psr7\Response;
+    use KrystalGuzzle\Psr7\Request;
+    use KrystalGuzzle\Exception\RequestException;
 
     // Create a mock and queue two responses.
     $mock = new MockHandler([
@@ -73,9 +73,9 @@ history of the requests that were sent by a client.
 
 .. code-block:: php
 
-    use GuzzleHttp\Client;
-    use GuzzleHttp\HandlerStack;
-    use GuzzleHttp\Middleware;
+    use KrystalGuzzle\Client;
+    use KrystalGuzzle\HandlerStack;
+    use KrystalGuzzle\Middleware;
 
     $container = [];
     $history = Middleware::history($container);
@@ -159,9 +159,9 @@ can queue an HTTP response or an array of responses by calling
 
 .. code-block:: php
 
-    use GuzzleHttp\Client;
-    use GuzzleHttp\Psr7\Response;
-    use GuzzleHttp\Tests\Server;
+    use KrystalGuzzle\Client;
+    use KrystalGuzzle\Psr7\Response;
+    use KrystalGuzzle\Tests\Server;
 
     // Start the server and queue a response
     Server::enqueue([

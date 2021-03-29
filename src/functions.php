@@ -1,6 +1,6 @@
 <?php
 
-namespace GuzzleHttp;
+namespace KrystalGuzzle;
 
 /**
  * Debug function used to describe the provided value type and class.

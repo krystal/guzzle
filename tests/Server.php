@@ -1,9 +1,9 @@
 <?php
 
-namespace GuzzleHttp\Tests;
+namespace KrystalGuzzle\Tests;
 
-use GuzzleHttp\Client;
-use GuzzleHttp\Psr7;
+use KrystalGuzzle\Client;
+use KrystalGuzzle\Psr7;
 use Psr\Http\Message\ResponseInterface;
 
 /**

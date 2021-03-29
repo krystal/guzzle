@@ -1,9 +1,9 @@
 <?php
 
-namespace GuzzleHttp\Tests;
+namespace KrystalGuzzle\Tests;
 
-use GuzzleHttp\Psr7;
-use GuzzleHttp\TransferStats;
+use KrystalGuzzle\Psr7;
+use KrystalGuzzle\TransferStats;
 use PHPUnit\Framework\TestCase;
 
 class TransferStatsTest extends TestCase

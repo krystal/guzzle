@@ -1,6 +1,6 @@
 <?php
 
-namespace GuzzleHttp\Cookie;
+namespace KrystalGuzzle\Cookie;
 
 /**
  * Persists cookies in the client session

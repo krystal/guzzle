@@ -1,6 +1,6 @@
 <?php
 
-namespace GuzzleHttp;
+namespace KrystalGuzzle;
 
 use Psr\Http\Message\MessageInterface;
 

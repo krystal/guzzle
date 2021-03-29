@@ -1,17 +1,17 @@
 <?php
 
-namespace GuzzleHttp\Test\Handler;
+namespace KrystalGuzzle\Test\Handler;
 
-use GuzzleHttp\Exception\ConnectException;
-use GuzzleHttp\Exception\RequestException;
-use GuzzleHttp\Handler;
-use GuzzleHttp\Handler\CurlFactory;
-use GuzzleHttp\Handler\EasyHandle;
-use GuzzleHttp\Promise as P;
-use GuzzleHttp\Psr7;
-use GuzzleHttp\Tests\Helpers;
-use GuzzleHttp\Tests\Server;
-use GuzzleHttp\TransferStats;
+use KrystalGuzzle\Exception\ConnectException;
+use KrystalGuzzle\Exception\RequestException;
+use KrystalGuzzle\Handler;
+use KrystalGuzzle\Handler\CurlFactory;
+use KrystalGuzzle\Handler\EasyHandle;
+use KrystalGuzzle\Promise as P;
+use KrystalGuzzle\Psr7;
+use KrystalGuzzle\Tests\Helpers;
+use KrystalGuzzle\Tests\Server;
+use KrystalGuzzle\TransferStats;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;
 

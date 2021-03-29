@@ -1,11 +1,11 @@
 <?php
 
-namespace GuzzleHttp\Handler;
+namespace KrystalGuzzle\Handler;
 
-use GuzzleHttp\Promise as P;
-use GuzzleHttp\Promise\Promise;
-use GuzzleHttp\Promise\PromiseInterface;
-use GuzzleHttp\Utils;
+use KrystalGuzzle\Promise as P;
+use KrystalGuzzle\Promise\Promise;
+use KrystalGuzzle\Promise\PromiseInterface;
+use KrystalGuzzle\Utils;
 use Psr\Http\Message\RequestInterface;
 
 /**

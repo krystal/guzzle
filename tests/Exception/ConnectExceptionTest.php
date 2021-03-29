@@ -1,9 +1,9 @@
 <?php
 
-namespace GuzzleHttp\Tests\Exception;
+namespace KrystalGuzzle\Tests\Exception;
 
-use GuzzleHttp\Exception\ConnectException;
-use GuzzleHttp\Psr7\Request;
+use KrystalGuzzle\Exception\ConnectException;
+use KrystalGuzzle\Psr7\Request;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Client\NetworkExceptionInterface;
 use Psr\Http\Client\RequestExceptionInterface;

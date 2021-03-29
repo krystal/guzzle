@@ -158,7 +158,7 @@ also asynchronous.
 v5:
 
 ```php
-use GuzzleHttp\Event\BeforeEvent;
+use KrystalGuzzle\Event\BeforeEvent;
 $client = new GuzzleHttp\Client();
 // Get the emitter and listen to the before event.
 $client->getEmitter()->on('before', function (BeforeEvent $e) {
@@ -175,7 +175,7 @@ to setup a handler middleware stack up front and inject the handler into a
 client.
 
 ```php
-use GuzzleHttp\Middleware;
+use KrystalGuzzle\Middleware;
 // Create a handler stack that has all of the default middlewares attached
 $handler = GuzzleHttp\HandlerStack::create();
 // Push the handler onto the handler stack

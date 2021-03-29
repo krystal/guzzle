@@ -1,9 +1,9 @@
 <?php
 
-namespace GuzzleHttp\Handler;
+namespace KrystalGuzzle\Handler;
 
-use GuzzleHttp\Promise\PromiseInterface;
-use GuzzleHttp\RequestOptions;
+use KrystalGuzzle\Promise\PromiseInterface;
+use KrystalGuzzle\RequestOptions;
 use Psr\Http\Message\RequestInterface;
 
 /**

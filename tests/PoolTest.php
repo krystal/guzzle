@@ -1,15 +1,15 @@
 <?php
 
-namespace GuzzleHttp\Tests;
+namespace KrystalGuzzle\Tests;
 
-use GuzzleHttp\Client;
-use GuzzleHttp\Exception\ClientException;
-use GuzzleHttp\Handler\MockHandler;
-use GuzzleHttp\HandlerStack;
-use GuzzleHttp\Pool;
-use GuzzleHttp\Promise\Promise;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
+use KrystalGuzzle\Client;
+use KrystalGuzzle\Exception\ClientException;
+use KrystalGuzzle\Handler\MockHandler;
+use KrystalGuzzle\HandlerStack;
+use KrystalGuzzle\Pool;
+use KrystalGuzzle\Promise\Promise;
+use KrystalGuzzle\Psr7\Request;
+use KrystalGuzzle\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace GuzzleHttp\Handler;
+namespace KrystalGuzzle\Handler;
 
-use GuzzleHttp\Utils;
+use KrystalGuzzle\Utils;
 
 /**
  * @internal

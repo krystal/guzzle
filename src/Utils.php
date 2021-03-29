@@ -1,12 +1,12 @@
 <?php
 
-namespace GuzzleHttp;
+namespace KrystalGuzzle;
 
-use GuzzleHttp\Exception\InvalidArgumentException;
-use GuzzleHttp\Handler\CurlHandler;
-use GuzzleHttp\Handler\CurlMultiHandler;
-use GuzzleHttp\Handler\Proxy;
-use GuzzleHttp\Handler\StreamHandler;
+use KrystalGuzzle\Exception\InvalidArgumentException;
+use KrystalGuzzle\Handler\CurlHandler;
+use KrystalGuzzle\Handler\CurlMultiHandler;
+use KrystalGuzzle\Handler\Proxy;
+use KrystalGuzzle\Handler\StreamHandler;
 use Psr\Http\Message\UriInterface;
 
 final class Utils

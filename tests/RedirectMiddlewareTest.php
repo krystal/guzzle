@@ -1,16 +1,16 @@
 <?php
 
-namespace GuzzleHttp\Tests;
+namespace KrystalGuzzle\Tests;
 
-use GuzzleHttp\Client;
-use GuzzleHttp\Exception\BadResponseException;
-use GuzzleHttp\Exception\TooManyRedirectsException;
-use GuzzleHttp\Handler\MockHandler;
-use GuzzleHttp\HandlerStack;
-use GuzzleHttp\Middleware;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
-use GuzzleHttp\RedirectMiddleware;
+use KrystalGuzzle\Client;
+use KrystalGuzzle\Exception\BadResponseException;
+use KrystalGuzzle\Exception\TooManyRedirectsException;
+use KrystalGuzzle\Handler\MockHandler;
+use KrystalGuzzle\HandlerStack;
+use KrystalGuzzle\Middleware;
+use KrystalGuzzle\Psr7\Request;
+use KrystalGuzzle\Psr7\Response;
+use KrystalGuzzle\RedirectMiddleware;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;
 

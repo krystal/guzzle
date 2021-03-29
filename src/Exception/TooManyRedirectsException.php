@@ -1,6 +1,6 @@
 <?php
 
-namespace GuzzleHttp\Exception;
+namespace KrystalGuzzle\Exception;
 
 class TooManyRedirectsException extends RequestException
 {

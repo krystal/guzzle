@@ -1,14 +1,14 @@
 <?php
 
-namespace GuzzleHttp\Test\Handler;
+namespace KrystalGuzzle\Test\Handler;
 
-use GuzzleHttp\Exception\BadResponseException;
-use GuzzleHttp\Exception\RequestException;
-use GuzzleHttp\Handler\MockHandler;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
-use GuzzleHttp\Psr7\Stream;
-use GuzzleHttp\TransferStats;
+use KrystalGuzzle\Exception\BadResponseException;
+use KrystalGuzzle\Exception\RequestException;
+use KrystalGuzzle\Handler\MockHandler;
+use KrystalGuzzle\Psr7\Request;
+use KrystalGuzzle\Psr7\Response;
+use KrystalGuzzle\Psr7\Stream;
+use KrystalGuzzle\TransferStats;
 use PHPUnit\Framework\TestCase;
 
 /**

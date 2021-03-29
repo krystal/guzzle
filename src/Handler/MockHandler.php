@@ -1,13 +1,13 @@
 <?php
 
-namespace GuzzleHttp\Handler;
+namespace KrystalGuzzle\Handler;
 
-use GuzzleHttp\Exception\RequestException;
-use GuzzleHttp\HandlerStack;
-use GuzzleHttp\Promise as P;
-use GuzzleHttp\Promise\PromiseInterface;
-use GuzzleHttp\TransferStats;
-use GuzzleHttp\Utils;
+use KrystalGuzzle\Exception\RequestException;
+use KrystalGuzzle\HandlerStack;
+use KrystalGuzzle\Promise as P;
+use KrystalGuzzle\Promise\PromiseInterface;
+use KrystalGuzzle\TransferStats;
+use KrystalGuzzle\Utils;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;

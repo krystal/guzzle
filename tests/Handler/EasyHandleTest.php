@@ -1,8 +1,8 @@
 <?php
 
-namespace GuzzleHttp\Test\Handler;
+namespace KrystalGuzzle\Test\Handler;
 
-use GuzzleHttp\Handler\EasyHandle;
+use KrystalGuzzle\Handler\EasyHandle;
 use PHPUnit\Framework\TestCase;
 
 /**

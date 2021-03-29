@@ -1,9 +1,9 @@
 <?php
 
-namespace GuzzleHttp;
+namespace KrystalGuzzle;
 
-use GuzzleHttp\Promise as P;
-use GuzzleHttp\Promise\PromiseInterface;
+use KrystalGuzzle\Promise as P;
+use KrystalGuzzle\Promise\PromiseInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

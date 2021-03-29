@@ -1,14 +1,14 @@
 <?php
 
-namespace GuzzleHttp\Tests\CookieJar;
+namespace KrystalGuzzle\Tests\CookieJar;
 
 use DateInterval;
 use DateTime;
 use DateTimeImmutable;
-use GuzzleHttp\Cookie\CookieJar;
-use GuzzleHttp\Cookie\SetCookie;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
+use KrystalGuzzle\Cookie\CookieJar;
+use KrystalGuzzle\Cookie\SetCookie;
+use KrystalGuzzle\Psr7\Request;
+use KrystalGuzzle\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,10 +1,10 @@
 <?php
 
-namespace GuzzleHttp;
+namespace KrystalGuzzle;
 
-use GuzzleHttp\Exception\BadResponseException;
-use GuzzleHttp\Exception\TooManyRedirectsException;
-use GuzzleHttp\Promise\PromiseInterface;
+use KrystalGuzzle\Exception\BadResponseException;
+use KrystalGuzzle\Exception\TooManyRedirectsException;
+use KrystalGuzzle\Promise\PromiseInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\UriInterface;

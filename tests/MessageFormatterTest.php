@@ -1,12 +1,12 @@
 <?php
 
-namespace GuzzleHttp\Tests;
+namespace KrystalGuzzle\Tests;
 
-use GuzzleHttp\Exception\RequestException;
-use GuzzleHttp\MessageFormatter;
-use GuzzleHttp\Psr7;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
+use KrystalGuzzle\Exception\RequestException;
+use KrystalGuzzle\MessageFormatter;
+use KrystalGuzzle\Psr7;
+use KrystalGuzzle\Psr7\Request;
+use KrystalGuzzle\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 
 /**

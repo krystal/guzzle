@@ -1,15 +1,15 @@
 <?php
 
-namespace GuzzleHttp\Test\Handler;
+namespace KrystalGuzzle\Test\Handler;
 
-use GuzzleHttp\Exception\ConnectException;
-use GuzzleHttp\Handler\CurlHandler;
-use GuzzleHttp\Promise\FulfilledPromise;
-use GuzzleHttp\Psr7;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
-use GuzzleHttp\Tests\Server;
-use GuzzleHttp\Utils;
+use KrystalGuzzle\Exception\ConnectException;
+use KrystalGuzzle\Handler\CurlHandler;
+use KrystalGuzzle\Promise\FulfilledPromise;
+use KrystalGuzzle\Psr7;
+use KrystalGuzzle\Psr7\Request;
+use KrystalGuzzle\Psr7\Response;
+use KrystalGuzzle\Tests\Server;
+use KrystalGuzzle\Utils;
 use PHPUnit\Framework\TestCase;
 
 /**

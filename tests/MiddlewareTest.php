@@ -1,21 +1,21 @@
 <?php
 
-namespace GuzzleHttp\Tests;
+namespace KrystalGuzzle\Tests;
 
-use GuzzleHttp\BodySummarizer;
-use GuzzleHttp\Cookie\CookieJar;
-use GuzzleHttp\Cookie\SetCookie;
-use GuzzleHttp\Exception\ClientException;
-use GuzzleHttp\Exception\RequestException;
-use GuzzleHttp\Exception\ServerException;
-use GuzzleHttp\Handler\MockHandler;
-use GuzzleHttp\HandlerStack;
-use GuzzleHttp\MessageFormatter;
-use GuzzleHttp\Middleware;
-use GuzzleHttp\Promise as P;
-use GuzzleHttp\Promise\PromiseInterface;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
+use KrystalGuzzle\BodySummarizer;
+use KrystalGuzzle\Cookie\CookieJar;
+use KrystalGuzzle\Cookie\SetCookie;
+use KrystalGuzzle\Exception\ClientException;
+use KrystalGuzzle\Exception\RequestException;
+use KrystalGuzzle\Exception\ServerException;
+use KrystalGuzzle\Handler\MockHandler;
+use KrystalGuzzle\HandlerStack;
+use KrystalGuzzle\MessageFormatter;
+use KrystalGuzzle\Middleware;
+use KrystalGuzzle\Promise as P;
+use KrystalGuzzle\Promise\PromiseInterface;
+use KrystalGuzzle\Psr7\Request;
+use KrystalGuzzle\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;

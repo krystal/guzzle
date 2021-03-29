@@ -1,9 +1,9 @@
 <?php
 
-namespace GuzzleHttp\Handler;
+namespace KrystalGuzzle\Handler;
 
-use GuzzleHttp\Psr7\Response;
-use GuzzleHttp\Utils;
+use KrystalGuzzle\Psr7\Response;
+use KrystalGuzzle\Utils;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;

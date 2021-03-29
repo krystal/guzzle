@@ -1,12 +1,12 @@
 <?php
 
-namespace GuzzleHttp;
+namespace KrystalGuzzle;
 
-use GuzzleHttp\Cookie\CookieJar;
-use GuzzleHttp\Exception\GuzzleException;
-use GuzzleHttp\Exception\InvalidArgumentException;
-use GuzzleHttp\Promise as P;
-use GuzzleHttp\Promise\PromiseInterface;
+use KrystalGuzzle\Cookie\CookieJar;
+use KrystalGuzzle\Exception\GuzzleException;
+use KrystalGuzzle\Exception\InvalidArgumentException;
+use KrystalGuzzle\Promise as P;
+use KrystalGuzzle\Promise\PromiseInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\UriInterface;

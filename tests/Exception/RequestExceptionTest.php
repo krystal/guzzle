@@ -1,13 +1,13 @@
 <?php
 
-namespace GuzzleHttp\Tests\Exception;
+namespace KrystalGuzzle\Tests\Exception;
 
-use GuzzleHttp\Exception\ClientException;
-use GuzzleHttp\Exception\RequestException;
-use GuzzleHttp\Exception\ServerException;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
-use GuzzleHttp\Psr7\Stream;
+use KrystalGuzzle\Exception\ClientException;
+use KrystalGuzzle\Exception\RequestException;
+use KrystalGuzzle\Exception\ServerException;
+use KrystalGuzzle\Psr7\Request;
+use KrystalGuzzle\Psr7\Response;
+use KrystalGuzzle\Psr7\Stream;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Client\NetworkExceptionInterface;
 use Psr\Http\Client\RequestExceptionInterface;

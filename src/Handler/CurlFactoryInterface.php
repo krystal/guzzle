@@ -1,6 +1,6 @@
 <?php
 
-namespace GuzzleHttp\Handler;
+namespace KrystalGuzzle\Handler;
 
 use Psr\Http\Message\RequestInterface;
 

@@ -19,7 +19,7 @@ Creating a Client
 
 .. code-block:: php
 
-    use GuzzleHttp\Client;
+    use KrystalGuzzle\Client;
 
     $client = new Client([
         // Base URI is used with relative requests
@@ -94,7 +94,7 @@ ready:
 
 .. code-block:: php
 
-    use GuzzleHttp\Psr7\Request;
+    use KrystalGuzzle\Psr7\Request;
 
     $request = new Request('PUT', 'http://httpbin.org/put');
     $response = $client->send($request, ['timeout' => 2]);
@@ -127,7 +127,7 @@ You can also use the `sendAsync()` and `requestAsync()` methods of a client:
 
 .. code-block:: php
 
-    use GuzzleHttp\Psr7\Request;
+    use KrystalGuzzle\Psr7\Request;
 
     // Create a PSR-7 request object to send
     $headers = ['X-Foo' => 'Bar'];
@@ -148,7 +148,7 @@ rejected with an exception.
 .. code-block:: php
 
     use Psr\Http\Message\ResponseInterface;
-    use GuzzleHttp\Exception\RequestException;
+    use KrystalGuzzle\Exception\RequestException;
 
     $promise = $client->requestAsync('GET', 'http://httpbin.org/get');
     $promise->then(
@@ -170,8 +170,8 @@ requests.
 
 .. code-block:: php
 
-    use GuzzleHttp\Client;
-    use GuzzleHttp\Promise;
+    use KrystalGuzzle\Client;
+    use KrystalGuzzle\Promise;
 
     $client = new Client(['base_uri' => 'http://httpbin.org/']);
 
@@ -204,11 +204,11 @@ amount of requests you wish to send.
 
 .. code-block:: php
 
-    use GuzzleHttp\Client;
-    use GuzzleHttp\Exception\RequestException;
-    use GuzzleHttp\Pool;
-    use GuzzleHttp\Psr7\Request;
-    use GuzzleHttp\Psr7\Response;
+    use KrystalGuzzle\Client;
+    use KrystalGuzzle\Exception\RequestException;
+    use KrystalGuzzle\Pool;
+    use KrystalGuzzle\Psr7\Request;
+    use KrystalGuzzle\Psr7\Response;
 
     $client = new Client();
 
@@ -342,7 +342,7 @@ resource returned from ``fopen``, or an instance of a
 
 .. code-block:: php
 
-    use GuzzleHttp\Psr7;
+    use KrystalGuzzle\Psr7;
 
     // Provide the body as a string.
     $r = $client->request('POST', 'http://httpbin.org/post', [
@@ -408,7 +408,7 @@ associative arrays, where each associative array contains the following keys:
 
 .. code-block:: php
 
-    use GuzzleHttp\Psr7;
+    use KrystalGuzzle\Psr7;
 
     $response = $client->request('POST', 'http://httpbin.org/post', [
         'multipart' => [
@@ -555,8 +555,8 @@ Guzzle throws exceptions for errors that occur during a transfer.
 
   .. code-block:: php
 
-      use GuzzleHttp\Psr7;
-      use GuzzleHttp\Exception\RequestException;
+      use KrystalGuzzle\Psr7;
+      use KrystalGuzzle\Exception\RequestException;
 
       try {
           $client->request('GET', 'https://github.com/_abc_123_404');
@@ -579,8 +579,8 @@ Guzzle throws exceptions for errors that occur during a transfer.
 
   .. code-block:: php
 
-      use GuzzleHttp\Psr7;
-      use GuzzleHttp\Exception\ClientException;
+      use KrystalGuzzle\Psr7;
+      use KrystalGuzzle\Exception\ClientException;
 
       try {
           $client->request('GET', 'https://github.com/_abc_123_404');
